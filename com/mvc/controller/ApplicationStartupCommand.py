@@ -5,5 +5,5 @@ from puremvc.patterns.command import SimpleCommand
 
 class ApplicationStartupCommand(SimpleCommand):
     def execute(self, notification: INotification):
-        self.facade.registerMediator(ApplicationMediator, notification.getBody())
+        self.facade.registerMediator(ApplicationMediator(notification.getBody()))
         pass
