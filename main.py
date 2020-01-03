@@ -1,5 +1,5 @@
 from com.mvc.controller.ApplicationFacade import ApplicationFacade
-from com.mvc.notice.NoticeApp import NoticeApp
+from com.mvc.controller.NoticeApp import NoticeApp
 
 
 class Main:

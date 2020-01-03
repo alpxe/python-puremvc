@@ -1,4 +1,4 @@
-from com.mvc.notice.NoticeApp import NoticeApp
+from com.mvc.controller.NoticeApp import NoticeApp
 from puremvc.interfaces import INotification
 from puremvc.patterns.mediator import Mediator
 
